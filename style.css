@@ -1,0 +1,61 @@
+* {
+	font-family: helvetica;
+	color: #fff; }
+
+body {
+	background: #333 url('images/food.jpg') no-repeat;
+	background-size: cover; }
+form {
+	background:  rgba(100,100,100,0.6);
+	margin: 50px auto;
+	width: 50%;
+	padding: 25px; }
+
+.split p { 
+	float: left;
+	margin: 15px 0; }
+ 
+
+label {
+	display: block;
+	margin: 10px 10px;
+	padding: 10px 20px; }
+
+input,  select  {
+    width: 90%;
+    height: 50px;
+    box-sizing: border-box;
+	display: block; 
+	background: transparent;
+	margin: 10px 20px;
+	padding: 10px 10px;  }
+
+input, select {
+	font-size: 16px; }
+
+button {
+	padding: 10px 5px;
+	margin: 10px 4%;
+	border-radius: 5px;
+	text-transform: uppercase;
+	color: #fff;
+	background: maroon;
+	outline: none;
+	width: 92%;
+	border: 1px solid #444; }
+
+button:hover {
+	background: transparent;  }
+
+button:active, button:focus {
+	margin: 1px 0 0 0;  }
+
+#totalTip {
+	font-size: 50px;
+	text-align: center;
+	margin-top: 50px;
+	text-shadow: 2px 2px #000;;  }
+#totalTip:before {
+	content: "Tip Amount";
+	font-size: 20px;
+	display: block; }
